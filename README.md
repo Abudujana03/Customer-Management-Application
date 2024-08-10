@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Customer Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This React-based customer management application allows users to view a list of customers, select a customer to view detailed information, and see a grid of photos fetched from Unsplash. The application features a virtualized list for performance, dynamic customer details, and an automatically refreshing photo grid.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Customer List:** Efficiently displays a scrollable list of customers using `react-window`, showing details like name, title, and description.
+- **Customer Details:** Provides detailed information about a selected customer, including their address and a photo grid.
+- **Photo Grid:** Displays a grid of photos from Unsplash, with automatic updates every 10 seconds to refresh content.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. **Clone the Repository:**
 
-### `npm test`
+   ```bash
+   git clone https://github.com/yourusername/customer-management-app.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the Project Directory:**   
+    cd customer-management-app
 
-### `npm run build`
+3.**Install Dependencies:** 
+    npm install
+4. **Run the Application:**
+    npm start
+## Dependencies
+    `react`: ^18.0.0
+    `react-dom`: ^18.0.0
+    `react-window`: ^1.8.7
+    `tailwindcss`: ^3.0.0
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API
+    Unsplash API: Used for fetching photos. Replace YOUR_ACCESS_KEY in PhotoGrid with your actual Unsplash API key. You can obtain an API key by creating a developer account on Unsplash.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+### Fork the Repository:
+#### Create a fork of this repository to your GitHub account.        
+### Create a Branch 
+#### Create a new branch for your changes.
+                git checkout -b feature-branch
+### Make Changes:
+#### Implement your changes or new features.
+            git commit -am 'Add new feature or fix bug'
+### Push Changes: Push your changes to your forked repository.
+            git push origin feature-branch
+### Open a Pull Request: 
+#### Navigate to the original repository and open a pull request with a clear description of the changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# contact
+    mdabudujana03@ggmail.com
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    

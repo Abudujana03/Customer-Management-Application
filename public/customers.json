@@ -1,0 +1,285 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "title": "Mr.",
+    "address": "123 Elm St, Springfield, IL",
+    "description": "John is a regular customer who loves our premium products. He often provides feedback and suggestions."
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "title": "Ms.",
+    "address": "456 Oak St, Springfield, IL",
+    "description": "Jane recently joined our loyalty program and has been very enthusiastic about our promotions."
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "title": "Dr.",
+    "address": "789 Pine St, Springfield, IL",
+    "description": "Alice is a doctor who frequently orders bulk items for her clinic. She prefers eco-friendly products."
+  },
+  {
+    "id": 4,
+    "name": "Bob Brown",
+    "title": "Mr.",
+    "address": "101 Maple St, Springfield, IL",
+    "description": "Bob is a long-time customer with a preference for our tech gadgets and electronics."
+  },
+  {
+    "id": 5,
+    "name": "Carol White",
+    "title": "Ms.",
+    "address": "202 Birch St, Springfield, IL",
+    "description": "Carol is a new customer who has been very pleased with her initial purchases and is likely to become a regular."
+  },
+  {
+    "id": 6,
+    "name": "David Wilson",
+    "title": "Mr.",
+    "address": "303 Cedar St, Springfield, IL",
+    "description": "David is a frequent flyer who always takes advantage of our special offers and discounts."
+  },
+  {
+    "id": 7,
+    "name": "Eve Davis",
+    "title": "Ms.",
+    "address": "404 Elm St, Springfield, IL",
+    "description": "Eve is a busy professional who orders items for her office. She values efficiency and prompt delivery."
+  },
+  {
+    "id": 8,
+    "name": "Frank Miller",
+    "title": "Mr.",
+    "address": "505 Oak St, Springfield, IL",
+    "description": "Frank is a hobbyist photographer who purchases various camera accessories from us regularly."
+  },
+  {
+    "id": 9,
+    "name": "Grace Lee",
+    "title": "Ms.",
+    "address": "606 Pine St, Springfield, IL",
+    "description": "Grace is an art enthusiast who frequently buys art supplies and related materials."
+  },
+  {
+    "id": 10,
+    "name": "Hank Anderson",
+    "title": "Mr.",
+    "address": "707 Maple St, Springfield, IL",
+    "description": "Hank is a frequent buyer of outdoor and sporting goods. He values durability and performance."
+  },
+  {
+    "id": 11,
+    "name": "Ivy Thomas",
+    "title": "Ms.",
+    "address": "808 Cedar St, Springfield, IL",
+    "description": "Ivy is a fashionista who loves our latest clothing and accessories."
+  },
+  {
+    "id": 12,
+    "name": "Jack Turner",
+    "title": "Mr.",
+    "address": "919 Maple St, Springfield, IL",
+    "description": "Jack is a tech enthusiast who frequently buys gadgets and electronics."
+  },
+  {
+    "id": 13,
+    "name": "Karen Green",
+    "title": "Ms.",
+    "address": "303 Oak St, Springfield, IL",
+    "description": "Karen is an avid reader who often buys books and e-readers."
+  },
+  {
+    "id": 14,
+    "name": "Leo Wright",
+    "title": "Mr.",
+    "address": "404 Birch St, Springfield, IL",
+    "description": "Leo is a DIY enthusiast who purchases tools and supplies for his home projects."
+  },
+  {
+    "id": 15,
+    "name": "Mia Harris",
+    "title": "Ms.",
+    "address": "505 Cedar St, Springfield, IL",
+    "description": "Mia is a new parent who shops for baby products and parenting accessories."
+  },
+  {
+    "id": 16,
+    "name": "Noah Baker",
+    "title": "Mr.",
+    "address": "606 Maple St, Springfield, IL",
+    "description": "Noah is a student who buys study materials and dorm essentials."
+  },
+  {
+    "id": 17,
+    "name": "Olivia Martinez",
+    "title": "Ms.",
+    "address": "707 Birch St, Springfield, IL",
+    "description": "Olivia is an event planner who frequently orders party supplies and decorations."
+  },
+  {
+    "id": 18,
+    "name": "Paul Anderson",
+    "title": "Mr.",
+    "address": "808 Maple St, Springfield, IL",
+    "description": "Paul is a health enthusiast who shops for fitness equipment and supplements."
+  },
+  {
+    "id": 19,
+    "name": "Quinn Edwards",
+    "title": "Ms.",
+    "address": "919 Cedar St, Springfield, IL",
+    "description": "Quinn is a music lover who frequently buys vinyl records and audio equipment."
+  },
+  {
+    "id": 20,
+    "name": "Ryan Adams",
+    "title": "Mr.",
+    "address": "101 Pine St, Springfield, IL",
+    "description": "Ryan is an avid gamer who purchases the latest games and gaming accessories."
+  },
+  {
+    "id": 21,
+    "name": "Sophie Clark",
+    "title": "Ms.",
+    "address": "212 Elm St, Springfield, IL",
+    "description": "Sophie is a frequent buyer of home decor and furniture. She often seeks unique and stylish pieces."
+  },
+  {
+    "id": 22,
+    "name": "Tom Harris",
+    "title": "Mr.",
+    "address": "323 Pine St, Springfield, IL",
+    "description": "Tom is an avid traveler who often buys travel accessories and gadgets."
+  },
+  {
+    "id": 23,
+    "name": "Ursula Evans",
+    "title": "Ms.",
+    "address": "434 Oak St, Springfield, IL",
+    "description": "Ursula is a fitness trainer who frequently purchases workout gear and nutritional supplements."
+  },
+  {
+    "id": 24,
+    "name": "Victor Adams",
+    "title": "Mr.",
+    "address": "545 Maple St, Springfield, IL",
+    "description": "Victor is a car enthusiast who often buys automotive accessories and maintenance products."
+  },
+  {
+    "id": 25,
+    "name": "Wendy Lewis",
+    "title": "Ms.",
+    "address": "656 Cedar St, Springfield, IL",
+    "description": "Wendy is a culinary expert who buys gourmet ingredients and high-end kitchen appliances."
+  },
+  {
+    "id": 26,
+    "name": "Xander Moore",
+    "title": "Mr.",
+    "address": "767 Pine St, Springfield, IL",
+    "description": "Xander is a gamer who frequently purchases video games and gaming consoles."
+  },
+  {
+    "id": 27,
+    "name": "Yara Brooks",
+    "title": "Ms.",
+    "address": "878 Oak St, Springfield, IL",
+    "description": "Yara is a fashion influencer who regularly purchases clothing and accessories for her online content."
+  },
+  {
+    "id": 28,
+    "name": "Zane Walker",
+    "title": "Mr.",
+    "address": "989 Maple St, Springfield, IL",
+    "description": "Zane is a technology professional who buys the latest gadgets and productivity tools."
+  },
+  {
+    "id": 29,
+    "name": "Ava Mitchell",
+    "title": "Ms.",
+    "address": "1010 Pine St, Springfield, IL",
+    "description": "Ava is a gardening enthusiast who frequently purchases plants, seeds, and gardening tools."
+  },
+  {
+    "id": 30,
+    "name": "Ben Scott",
+    "title": "Mr.",
+    "address": "1111 Cedar St, Springfield, IL",
+    "description": "Ben is a music producer who often buys audio equipment and music software."
+  },
+  {
+    "id": 31,
+    "name": "Clara Murphy",
+    "title": "Ms.",
+    "address": "1212 Oak St, Springfield, IL",
+    "description": "Clara is a book lover who frequently buys novels, biographies, and literature."
+  },
+  {
+    "id": 32,
+    "name": "David King",
+    "title": "Mr.",
+    "address": "1313 Maple St, Springfield, IL",
+    "description": "David is a home improvement enthusiast who purchases tools and renovation materials."
+  },
+  {
+    "id": 33,
+    "name": "Ella Reed",
+    "title": "Ms.",
+    "address": "1414 Cedar St, Springfield, IL",
+    "description": "Ella is a tech-savvy individual who frequently buys the latest in smart home devices and gadgets."
+  },
+  {
+    "id": 34,
+    "name": "Frank Turner",
+    "title": "Mr.",
+    "address": "1515 Pine St, Springfield, IL",
+    "description": "Frank is a sports fan who regularly buys athletic apparel and equipment."
+  },
+  {
+    "id": 35,
+    "name": "Grace Kelly",
+    "title": "Ms.",
+    "address": "1616 Oak St, Springfield, IL",
+    "description": "Grace is a jewelry collector who often buys high-quality and unique pieces."
+  },
+  {
+    "id": 36,
+    "name": "Henry Thompson",
+    "title": "Mr.",
+    "address": "1717 Maple St, Springfield, IL",
+    "description": "Henry is a pet lover who frequently buys pet supplies and accessories."
+  },
+  {
+    "id": 37,
+    "name": "Ivy Davis",
+    "title": "Ms.",
+    "address": "1818 Pine St, Springfield, IL",
+    "description": "Ivy is an artist who purchases art supplies and creative materials."
+  },
+  {
+    "id": 38,
+    "name": "Jack Wilson",
+    "title": "Mr.",
+    "address": "1919 Oak St, Springfield, IL",
+    "description": "Jack is a DIY enthusiast who regularly buys tools and materials for home projects."
+  },
+  {
+    "id": 39,
+    "name": "Kara Wilson",
+    "title": "Ms.",
+    "address": "2020 Maple St, Springfield, IL",
+  
+    "description": "Kara is a health-conscious individual who buys organic foods and wellness products."
+  },
+  {
+    "id": 40,
+    "name": "Leo Martinez",
+    "title": "Mr.",
+    "address": "2121 Pine St, Springfield, IL",
+    "description": "Leo is a gaming enthusiast who frequently buys the latest games and gaming accessories."
+  }
+]
+
+  

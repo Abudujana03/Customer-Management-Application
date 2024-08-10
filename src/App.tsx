@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import CustomerList from './components/CustomerList';
+import CustomerDetails from './components/CustomerDetails';
 
-function App() {
+interface Customer {
+  id: number;
+  name: string;
+  title: string;
+  description: string;
+  address: string;
+  photos: string[];
+}
+
+const App: React.FC = () => {
+  const [customers, setCustomers] = useState<Customer[]>([]);
+  const [selectedCustomerId, setSelectedCustomerId] = useState<number | null>(null);
+  const [selectedCustomer, setSelectedCustomer] = useState<Customer | null>(null);
+
+  useEffect(() => {
+    fetch('/customers.json')
+      .then(response => response.json())
+      .then(data => setCustomers(data));
+  }, []);
+
+  useEffect(() => {
+    if (selectedCustomerId !== null) {
+      const customer = customers.find(c => c.id === selectedCustomerId);
+      setSelectedCustomer(customer || null);
+    }
+  }, [selectedCustomerId, customers]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex">
+      <div className="mt-6 border-r">
+        <CustomerList
+          customers={customers}
+          onSelect={setSelectedCustomerId}
+          selectedCustomerId={selectedCustomerId}
+        />
+      </div>
+      <div className="w-auto p-4 ">
+        {selectedCustomer && (
+          <CustomerDetails
+            name={selectedCustomer.name}
+            title={selectedCustomer.title}
+            description={selectedCustomer.description}
+            address={selectedCustomer.address}
+          />
+        )}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
